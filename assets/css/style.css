@@ -784,7 +784,7 @@ p {
   min-height: 160px;
 }
 
-.php-email-form .error-message {
+.emailform .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -793,10 +793,10 @@ p {
   margin-bottom: 15px;
   font-weight: 600;
 }
-.php-email-form .error-message br + br {
+.emailform .error-message br + br {
   margin-top: 25px;
 }
-.php-email-form .sent-message {
+.emailform .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -805,14 +805,14 @@ p {
   font-weight: 600;
   margin-bottom: 15px;
 }
-.php-email-form .loading {
+.emailform .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
   margin-bottom: 15px;
 }
-.php-email-form .loading:before {
+.emailform .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
